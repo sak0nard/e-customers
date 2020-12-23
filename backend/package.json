@@ -1,0 +1,17 @@
+{
+  "name": "customer-backend",
+  "version": "1.0.0",
+  "description": "Customer API backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "JW",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "ava": "^3.14.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
