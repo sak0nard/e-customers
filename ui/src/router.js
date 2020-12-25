@@ -1,6 +1,6 @@
 import { createWebHistory, createRouter } from 'vue-router';
 import AllCustomersView from '@/views/AllCustomersView.vue';
-// import ViewCustomer from '@/components/ViewCustomer.vue';
+import SingleCustomerView from '@/views/SingleCustomerView.vue';
 
 
 const routes = [
@@ -17,7 +17,7 @@ const routes = [
   {
     path: '/customers/:id',
     name: 'ViewCustomer',
-    component: AllCustomersView,
+    component: SingleCustomerView,
     props: true,
   },
 ];

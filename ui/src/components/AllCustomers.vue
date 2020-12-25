@@ -30,7 +30,7 @@
 
 <script>
 export default {
-  name: 'ListCustomer',
+  name: 'AllCustomers',
   props: {
     customers: {
       type: Array,

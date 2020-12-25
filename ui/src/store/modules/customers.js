@@ -7,7 +7,7 @@ const state = () => ({
 
 const getters = {
   getCustomerById: (state) => (id) => {
-    return state.data.find(customer => customer.id === id);
+    return state.data.find(customer => customer.id.toString() === id.toString());
   }
 }
 
