@@ -1,12 +1,14 @@
 [
   {
     "id": "1",
-    "name": "John Doe",
+    "firstName": "John",
+    "lastName": "Doe",
     "email": "joe.doe@company.com"
   },
   {
     "id": "2",
-    "name": "Foo Bar",
-    "email": "foobar@gmail.com"
+    "firstName": "Foo",
+    "lastName": "Bar",
+    "email": "foobar@email.com"
   }
 ]

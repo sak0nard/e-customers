@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const { config } = require('./src/config');
 const { CustomerDataAccess } = require('./src/customerDataAccess');
 const app = express();
@@ -6,6 +7,7 @@ const app = express();
 const customerDao = new CustomerDataAccess();
 
 app.use(express.json());
+app.use(cors());
 
 app.get('/customers', async (_, res) => {
   try {
